@@ -22,7 +22,7 @@ B = c*e2/(n@e2)
 x_AB = line_gen(A,B)
 
 #Plotting all lines
-plt.plot(x_AB[0,:],x_AB[1,:],label='$-3x+5y+15=0$')
+plt.plot(x_AB[0,:],x_AB[1,:],label='(-3 5)x=-15')
 
 plt.plot(A[0], A[1], 'o')
 plt.text(A[0] * (1 - 0.001), A[1] * (1) , '$(5,0)$')
